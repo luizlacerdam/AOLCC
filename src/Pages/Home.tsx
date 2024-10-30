@@ -1,6 +1,7 @@
 import React from 'react';
 import '../assets/styles/Home.css';
 import ProgramDetailCard from '../Components/ProgramDetailCard';
+import StepsToFollow from '../Components/StepsToFollow';
 
 const Home: React.FC = () => {
     return (
@@ -9,8 +10,8 @@ const Home: React.FC = () => {
                 <div className="row-content d-flex align-items-center justify-content-center">
                     <ProgramDetailCard title='Program Name' content='Program Name' textAlign='left' />
                 </div>
-                <div className="row-content bg-success d-flex align-items-center justify-content-center">
-                    Second Row
+                <div className="row-content d-flex align-items-center justify-content-center">
+                    <StepsToFollow />
                 </div>
             </div>
 

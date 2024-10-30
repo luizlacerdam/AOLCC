@@ -1,0 +1,151 @@
+.steps-container {
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+    background-color: #fff;
+    font-family: Arial, sans-serif;
+}
+
+.steps-header {
+    background-color: #4caf50;
+    color: white;
+    padding: 10px;
+    border-radius: 8px 8px 0 0;
+    font-size: 18px;
+    text-align: left;
+}
+
+.step {
+    padding: 10px;
+    position: relative;
+    text-align: left;
+}
+
+.step::after {
+    content: "";
+    width: 98%;
+    height: 1px;
+    background-color: #e0e0e0;
+    position: absolute;
+    bottom: 0;
+    left: 1%;
+}
+
+.step:last-child::after {
+    display: none;
+}
+
+.step h4 {
+    margin-bottom: 10px;
+}
+
+.step p {
+    margin: 0;
+    color: #333;
+    width: 80%;
+}
+
+.step .step-icon {
+    color: #4caf50;
+    position: absolute;
+    top: 50%;
+    right: 15px;
+    font-size: 20px;
+    transform: translateY(-50%);
+}
+
+.button-link {
+    background-color: #4caf50;
+    color: white;
+    padding: 5px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.warning {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.warning-icon {
+    color: #ff9800;
+    margin-right: 5px;
+}
+
+.divider {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    margin: 15px 0;
+    color: #999;
+}
+
+.divider::before,
+.divider::after {
+    content: "";
+    width: 44%;
+    border-bottom: 1px solid #e0e0e0;
+    margin: 0 10px;
+}
+
+.buttons {
+    display: flex;
+    gap: 10px;
+}
+
+.button-upload {
+    background-color: #4caf50;
+    color: white;
+    padding: 8px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.button-upload-contract {
+    background-color: #e0e0e0;
+    color: #999;
+    padding: 8px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: not-allowed !important;
+
+}
+
+.button-submit {
+    background-color: #e0e0e0;
+    color: #999;
+    padding: 8px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: not-allowed;
+}
+
+.button-osap {
+    background-color: #4caf50;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.disclaimer {
+    margin-top: 20px;
+    margin-left: 5px;
+    font-size: 12px;
+    text-align: left;
+    position: relative;
+    margin-bottom: 0;
+}
+
+.step .no-color {
+    color: #999;
+}
+
+.step .orange-icon {
+    color: orange;
+    background-attachment: orange;
+}

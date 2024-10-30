@@ -1,6 +1,6 @@
 import React from 'react';
 import { Nav } from 'react-bootstrap';
-import { FaHome, FaInfoCircle, FaServicestack, FaPhone, FaDollarSign, FaFileAlt } from 'react-icons/fa';
+import { FaDollarSign, FaFileAlt } from 'react-icons/fa';
 import '../assets/styles/Navbar.css';
 import { NavLink } from 'react-router-dom';
 import logo from '../assets/imgs/logo.png';

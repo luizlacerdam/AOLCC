@@ -1,0 +1,22 @@
+.program-card {
+    border: 1px solid #e0e0e0;
+    border-radius: 15px;
+    padding: 15px;
+    background-color: #fff;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1);
+    width: 100%;
+    height: 100%;
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+.program-card__subtitle {
+    font-size: 18px;
+    color: #a0a0a0;
+}
+
+.program-card__title {
+    font-size: 22px;
+    color: #000;
+    margin-top: 15px;
+}

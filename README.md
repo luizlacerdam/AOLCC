@@ -3,6 +3,10 @@
 
 This is a Vite-based React application using TypeScript.
 
+## Preview
+![App Preview](./preview.png)
+
+
 ## Getting Started
 
 These instructions will help you set up and run the project on your local machine.

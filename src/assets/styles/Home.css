@@ -31,3 +31,35 @@
 .cards-column {
     gap: 30px;
 }
+
+.new-division {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    height: 100%;
+    flex-grow: 1;
+}
+
+.sub-row {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.first-sub-row {
+    display: flex;
+    width: 100%;
+    gap: 20px;
+}
+
+.sub-column {
+    width: 50%;
+}
+
+.second-sub-row {
+    text-align: center;
+    border: 1px solid #ccc;
+    padding: 10px;
+}

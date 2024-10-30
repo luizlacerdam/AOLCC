@@ -11,12 +11,12 @@
 }
 
 .program-card__subtitle {
-    font-size: 18px;
+    font-size: 0.8rem;
     color: #a0a0a0;
 }
 
 .program-card__title {
-    font-size: 22px;
+    font-size: 1rem;
     color: #000;
     margin-top: 15px;
 }

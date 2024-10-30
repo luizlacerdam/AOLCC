@@ -1,8 +1,7 @@
 .home-container {
     display: flex;
     gap: 30px;
-    height: 100vh;
-    padding: 20px 40px 0px 40px;
+    padding: 0px 40px 0px 40px;
 }
 
 .column {
@@ -35,7 +34,7 @@
 .new-division {
     display: flex;
     flex-direction: column;
-    gap: 10px;
+    gap: 20px;
     height: 100%;
     flex-grow: 1;
 }

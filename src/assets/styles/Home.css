@@ -1,0 +1,30 @@
+.home-container {
+    display: flex;
+    gap: 20px;
+    height: 100vh;
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    flex: 1;
+}
+
+.row-content {
+    flex: 1;
+    padding: 10px;
+    color: white;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.column .row-content:first-child {
+    flex-basis: 20%;
+}
+
+.column .row-content:last-child {
+    flex-basis: 80%;
+}

@@ -1,9 +1,10 @@
-import React from "react";
+import React from 'react';
+import '../assets/styles/Home.css';
 
 const Home: React.FC = () => {
     return (
-        <div>
-            <h1>Hello world</h1>
+        <div className="home-container">
+            Hello
         </div>
     );
 };

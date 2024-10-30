@@ -1,10 +1,22 @@
-/* src/App.css */
-.Layout {
+.layout {
     display: flex;
+    height: 100vh;
+}
+
+.navbar {
+    width: 250px;
+    height: 100vh;
+    background-color: #f4f4f4;
+    position: fixed;
+    top: 0;
+    left: 0;
 }
 
 .content {
     margin-left: 250px;
-    /* Matches the sidebar width */
     padding: 20px;
+    flex-grow: 1;
+    background-color: #fff;
+    height: 100vh;
+    overflow-y: auto;
 }

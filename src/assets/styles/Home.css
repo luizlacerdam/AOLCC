@@ -58,6 +58,6 @@
 
 .second-sub-row {
     text-align: center;
-    border: 1px solid #ccc;
-    padding: 10px;
+    width: 100%;
+    height: 100%;
 }

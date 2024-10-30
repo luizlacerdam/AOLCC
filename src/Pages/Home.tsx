@@ -4,6 +4,7 @@ import ProgramDetailCard from '../Components/ProgramDetailCard';
 import StepsToFollow from '../Components/StepsToFollow';
 import Calendar from '../Components/Calendar';
 import NotificationTimeline from '../Components/NotificationTimeline';
+import MentorCard from '../Components/MentorCard';
 
 const Home: React.FC = () => {
     return (
@@ -29,7 +30,7 @@ const Home: React.FC = () => {
                         <div className="sub-column"> <NotificationTimeline /></div>
                     </div>
                     <div className="sub-row second-sub-row">
-                        Second Sub Row (50% height)
+                        <MentorCard />
                     </div>
                 </div>
             </div>

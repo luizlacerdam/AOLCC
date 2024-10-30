@@ -1,0 +1,69 @@
+.notification-container {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    width: 100%;
+    height: 100%;
+    background-color: white;
+    font-family: Arial, sans-serif;
+}
+
+.notification-header {
+    background-color: #4caf50;
+    color: white;
+    padding: 10px;
+    border-radius: 8px 8px 0 0;
+    font-size: 18px;
+    line-height: 1.5;
+    text-align: left;
+    height: 50px;
+    display: flex;
+    align-items: center;
+}
+
+.timeline {
+    position: relative;
+    padding: 0 0 0 30px;
+}
+
+.timeline-item {
+    position: relative;
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 30px;
+}
+
+.timeline-item:last-child {
+    margin-bottom: 0;
+}
+
+.timeline-marker {
+    width: 12px;
+    height: 12px;
+    background-color: #ff5722;
+    border-radius: 50%;
+    position: relative;
+    left: -18px;
+    z-index: 1;
+}
+
+.timeline-content {
+    flex: 1;
+    padding-left: 20px;
+    text-align: left;
+}
+
+.timeline-time {
+    color: #666;
+    font-size: 12px;
+}
+
+.timeline-title {
+    font-weight: bold;
+    font-size: 14px;
+    margin: 5px 0;
+}
+
+.timeline-description {
+    color: #333;
+    font-size: 13px;
+}

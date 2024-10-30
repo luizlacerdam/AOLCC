@@ -3,6 +3,7 @@ import '../assets/styles/Home.css';
 import ProgramDetailCard from '../Components/ProgramDetailCard';
 import StepsToFollow from '../Components/StepsToFollow';
 import Calendar from '../Components/Calendar';
+import NotificationTimeline from '../Components/NotificationTimeline';
 
 const Home: React.FC = () => {
     return (
@@ -25,7 +26,7 @@ const Home: React.FC = () => {
                 <div className="row-content new-division">
                     <div className="sub-row first-sub-row">
                         <div className="sub-column"> <Calendar /> </div>
-                        <div className="sub-column">Right Column Content</div>
+                        <div className="sub-column"> <NotificationTimeline /></div>
                     </div>
                     <div className="sub-row second-sub-row">
                         Second Sub Row (50% height)
